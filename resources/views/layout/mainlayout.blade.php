@@ -1,0 +1,6 @@
+@include('layout.templates.head')
+@include('layout.templates.header')
+@include('layout.templates.sidebar')
+@yield('content')
+@include('layout.templates.footer')
+@include('layout.templates.script')
